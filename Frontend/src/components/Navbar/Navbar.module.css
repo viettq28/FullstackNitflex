@@ -1,0 +1,12 @@
+.w-10 {
+    width: 55px;
+}
+
+.sensor {
+    height: 100px;
+    position: absolute;
+}
+
+.bg-dark {
+    transition: background 0.5s;
+}

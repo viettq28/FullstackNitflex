@@ -1,0 +1,41 @@
+.banner-container {
+    height: 400px;
+}
+
+.top-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,1,1, 0.25);
+}
+
+.banner-content {
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    padding: 0px 0px 20px 20px;
+}
+.custom-btn {
+    color: rgb(219, 219, 219);
+    font-weight: 600;
+    background-color: rgba(17, 17, 17, 0.411);
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-right: 10px;
+}
+.custom-btn:hover {
+    background-color: rgba(17, 17, 17, 1);
+    color: rgb(255, 255, 255);
+
+}
+.banner-desc {
+    min-width: 150px;
+    margin-top: 10%;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
